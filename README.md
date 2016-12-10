@@ -6,17 +6,20 @@ sbt를 이용하여 scala 프로젝트를 시작할 때, 사용하기 위해서 
 
 ## How to use
 
-1. Clone start-kit into own folder
+### Clone start-kit into own folder
 
 ```bash
 $ git clone https://github.com/jungbin-kim/scala-sbt-start-kit.git {folder name}
 ```
 
-2. Custom project
+### Custom project
 
 - Remove git remote origin
 
 ```bash
+# Move project path
+$ cd {path/project/folder}
+
 # View remotes
 $ git remote -v
 origin  https://github.com/jungbin-kim/scala-sbt-start-kit.git (fetch)
