@@ -49,3 +49,7 @@ $ sbt run
     + Data files in src/main/resources or src/test/resources
     + jars in lib
   
+## Error Handling
+- `git clone` 후 IntelliJ에서 열면 sbt import가 안되고 Java `Null Point Exception` 나는 경우
+    + &#8984; + `;` (Project Settings) -> `Modules` -> `Paths` -> `Compile output path` 확인
+    + project root에 target 폴더가 없어서 해당 에러가 발생하였음.
